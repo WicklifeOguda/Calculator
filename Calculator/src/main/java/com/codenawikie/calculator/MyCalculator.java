@@ -15,7 +15,6 @@ public class MyCalculator extends Application {
         FXMLLoader fxmlLoader = new FXMLLoader(MyCalculator.class.getResource("my-calc-view.fxml"));
         Scene scene = new Scene(fxmlLoader.load());
         scene.setFill(Color.TRANSPARENT);
-        //stage.initStyle(StageStyle.TRANSPARENT);
         stage.setTitle("Calculator");
         stage.setScene(scene);
         String css =  this.getClass().getResource("myCalc.css").toExternalForm();
